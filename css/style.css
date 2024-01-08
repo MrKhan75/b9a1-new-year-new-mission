@@ -253,3 +253,67 @@ header {
     width: 140px;
     height: 140px;
 }
+
+
+
+
+
+
+/* Holiday Section Design */
+
+.holiday {
+    margin: 120px 0px 0px 100px;
+    text-align: center;
+}
+.holiday-header-text h5{
+    color: #070211;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.holiday-header-text h1 span{
+    color:#f00;
+    font-family: 'Merriweather', serif;
+}
+
+.holiday-header-text h1{
+    color:#070211;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+}
+.holiday-header-text p{
+    color: rgba(7, 2, 17, 0.60); 
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 40px;
+    line-height: 1.5rem;
+}
+
+.holiday-img-content {
+    height: 650px;
+    background-image:url('../images/Rectangle2.png'), url('/images/Rectangle1.png');
+    background-repeat: no-repeat;
+    background-position: bottom , top right;
+
+}
+
+.holiday-img-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+.holiday-img-content .gift-box{
+    margin-top: 100px;
+}
+
+.holiday-img-content .discount{
+    margin:0px 320px 170px 0px ;
+}
+
+
