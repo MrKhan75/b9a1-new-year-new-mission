@@ -147,6 +147,7 @@ header {
 .event {
     margin: 100px 0px;
 }
+
 .event-section {
     height: 380px;
     margin: 100px 0px;
@@ -162,18 +163,20 @@ header {
     text-align: center;
     font-family: 'Inter', sans-serif;
 }
+
 .event-section-content span {
     color: #f00;
     font-weight: 600;
 }
-.event-section-content p{
+
+.event-section-content p {
     color: #070211;
     font-size: 20px;
     font-weight: 600;
     line-height: 2rem;
 }
 
-.event-section-content .event-btn{
+.event-section-content .event-btn {
     margin-top: 30px;
     background-color: #f00;
     color: #fff;
@@ -199,7 +202,7 @@ header {
     margin: 100px 0px;
 }
 
-.coming-soon-text h5{
+.coming-soon-text h5 {
     color: #f00;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
@@ -207,23 +210,25 @@ header {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-.coming-soon-text h3{
+
+.coming-soon-text h3 {
     color: #070211;
     font-family: 'Merriweather', serif;
     font-size: 36px;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
+
 .coming-soon-text {
-    color: rgba(7, 2, 17, 0.60); 
+    color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5rem;
 }
 
-.coming-soon-img img{
+.coming-soon-img img {
     width: 360px;
     height: 360px;
     outline: 15px solid #f00;
@@ -231,7 +236,7 @@ header {
     padding: 20px;
 }
 
-.coming-soon-year h3{
+.coming-soon-year h3 {
     color: #f00;
     font-size: 36px;
     font-family: 'Inter', sans-serif;
@@ -240,16 +245,16 @@ header {
     margin-top: 90px;
 }
 
-.coming-soon-year p{
-    color: rgba(7, 2, 17, 0.60); 
+.coming-soon-year p {
+    color: rgba(7, 2, 17, 0.60);
     font-size: 14px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     line-height: 1.5rem;
 }
 
-.coming-soon-year img{
+.coming-soon-year img {
     width: 140px;
     height: 140px;
 }
@@ -265,7 +270,8 @@ header {
     margin: 120px 0px 0px 100px;
     text-align: center;
 }
-.holiday-header-text h5{
+
+.holiday-header-text h5 {
     color: #070211;
     font-size: 14px;
     font-family: 'Inter', sans-serif;
@@ -273,20 +279,21 @@ header {
     margin-bottom: 10px;
 }
 
-.holiday-header-text h1 span{
-    color:#f00;
+.holiday-header-text h1 span {
+    color: #f00;
     font-family: 'Merriweather', serif;
 }
 
-.holiday-header-text h1{
-    color:#070211;
+.holiday-header-text h1 {
+    color: #070211;
     font-size: 50px;
     font-weight: 800;
     font-family: 'Merriweather', serif;
     margin-bottom: 20px;
 }
-.holiday-header-text p{
-    color: rgba(7, 2, 17, 0.60); 
+
+.holiday-header-text p {
+    color: rgba(7, 2, 17, 0.60);
     font-size: 15px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
@@ -296,9 +303,9 @@ header {
 
 .holiday-img-content {
     height: 650px;
-    background-image:url('../images/Rectangle2.png'), url('../images/Rectangle1.png');
+    background-image: url('../images/Rectangle2.png'), url('../images/Rectangle1.png');
     background-repeat: no-repeat;
-    background-position: bottom , top right;
+    background-position: bottom, top right;
 
 }
 
@@ -308,12 +315,13 @@ header {
     align-items: center;
     border-radius: 15px;
 }
-.holiday-img-content .gift-box{
+
+.holiday-img-content .gift-box {
     margin-top: 100px;
 }
 
-.holiday-img-content .discount{
-    margin:0px 320px 170px 0px ;
+.holiday-img-content .discount {
+    margin: 0px 320px 170px 0px;
 }
 
 
@@ -333,6 +341,7 @@ header {
     font-weight: 500;
     margin-bottom: 15px;
 }
+
 .portfolio-header-text h3 {
     color: #070211;
     font-family: 'Merriweather', serif;
@@ -340,6 +349,7 @@ header {
     font-weight: 800;
     margin-bottom: 15px;
 }
+
 .portfolio-header-text p {
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter', sans-serif;
@@ -349,7 +359,7 @@ header {
     line-height: 1.5rem;
 }
 
-.portfolio-image img{
+.portfolio-image img {
     width: 350px;
     height: 380px;
     margin: 0px 10px 10px 0px;
@@ -359,3 +369,120 @@ header {
 
 
 
+
+
+/* Newsletter Section Design */
+
+.newsletter {
+    height: 550px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-content img {
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+.newsletter-content h3 {
+    color: #070211;
+    font-size: 36px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 10px;
+}
+
+.newsletter-content p {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 1.8rem;
+}
+
+.newsletter-content input[type="email"]{
+    width: 50%;
+    padding: 15px;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#submit{
+    border: none;
+    padding: 15px;
+    margin-left: -3px;
+    width: 100px;
+    background-color: #f00;
+    color: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+
+
+
+/* FooterSection Design */
+
+footer{
+    background: #070211; 
+    color: #fff;
+    height: 450px;
+    margin-top: 100px;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(71, 70, 70);
+}
+
+.top-footer p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+.top-footer-info{
+    margin-right: 100px;
+    line-height: 1.7rem;
+}
+.top-footer-info img{
+    width: 17px;
+    margin-right: 5px;
+    
+}
+
+.footer-social {
+    text-align: center;
+    padding: 40px 0px;
+    border-bottom: 1px solid rgb(71, 70, 70);
+}
+
+.footer-social img{
+    width: 64px;
+    height: 64px;
+    margin-right: 15px;
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px 0px 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
