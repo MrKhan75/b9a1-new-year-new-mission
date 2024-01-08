@@ -365,7 +365,13 @@ header {
     margin: 0px 10px 10px 0px;
 }
 
-
+.portfolio-image {
+    transition: all 1s ease-in-out;
+}
+.thumbnail:hover{
+    opacity:0.5;
+    transform: scale(0.9);
+}
 
 
 
